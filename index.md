@@ -20,7 +20,7 @@ Feel free to stop by our lab in Phillips 328 to see our robots in action!
 
 ---
 #### News
-{% for item in site.data.news limit:5 %}
+<--{% for item in site.data.news limit:5 %}
   <div class="news-item">
     {% if item.image %}
       <div class="news-with-image">
@@ -37,12 +37,12 @@ Feel free to stop by our lab in Phillips 328 to see our robots in action!
       </div>
     {% endif %}
   </div>
-{% endfor %}
+{% endfor %}-->
 
 
 <!-- https://www.publicalbum.org/blog/embedding-google-photos-albums -->
 <!-- https://photos.app.goo.gl/AYREiQgT7ZPnUuNR9 -->
-<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 <div class="pa-carousel-widget" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/AYREiQgT7ZPnUuNR9"
   data-title="LabPhotos"
@@ -57,5 +57,5 @@ Feel free to stop by our lab in Phillips 328 to see our robots in action!
   <object data="https://lh3.googleusercontent.com/pw/AP1GczP0kuPJBTzEHcf_OS3FrPl1U_kojCkAXDoICKdCZPs5yXRwzipVaf3JJp4WNOgzeQo0-nJTx4bsOUYB9d88dBQfzBHXcFLPrafAgBN06-qVacaM6yF2=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/pw/AP1GczMjctTaHF_GnYt_6rjnK-iEnIJLyUxGf17fPe5QTcp3rUSw8Y4VJcOh3tzcl15FzBjYNgnqRwghyBeLxhyEMvhLQd1Fj0bqUYuAUNiDNoV6nmE9VQPB=w1920-h1080"></object>
   <object data="https://lh3.googleusercontent.com/pw/AP1GczMZMBA6YhZMWfTCG4ZGsiwY4vJdtxHnc_JKOM_4SNa649pbJYDJM-EwabqEP13QYhwtqK4rCaLpbhhQhGwIQyQX2LyLJDAoUJiAhFt-HStGL6iJO6jB=w1920-h1080"></object>
-</div>
+</div> -->
 
